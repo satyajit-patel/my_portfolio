@@ -1,3 +1,3 @@
-$${\color{lightgreen}Light \space Green}$$
-
-**<p align='center'>You can find the website live <a href="https://satyajit-patel.github.io/my_portfolio/">here</a></p>**
+<div align="center">
+    ## find the website live [here](https://satyajit-patel.github.io/my_portfolio/)
+</div>
