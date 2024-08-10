@@ -178,3 +178,44 @@ footer {
         flex-basis: auto;
     }
 }
+
+
+
+
+/* Dropdown Styling */
+.dropdown {
+	cursor: pointer;
+}
+.content {
+    position: absolute; 
+    background-color: var(--turquoise);
+    display: none; /* hide */
+}
+.dropdown:hover .content { /* i.e. when hovor then only show the hidden block */
+    display: block;
+}
+.dropdown:hover a{
+    display: block;
+}
+.box {
+    box-shadow: 5px 5px 5px, -8px -8px 8px rgb(25, 24, 46);
+    overflow: auto;
+    border-radius: 2px;
+}
+.box:hover {
+    transform: scale(1.03);
+    filter: drop-shadow(0 0 10px white);
+    transition: 0.3s;
+}
+#leetcode:hover {
+    background-color: var(--cobalt);
+}
+#codeforces:hover {
+    background-color: orangered;
+}
+#twitter:hover {
+    background-color: beige;
+}
+#insta:hover {
+    background-color: rgb(156, 135, 135);
+}
