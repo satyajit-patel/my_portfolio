@@ -26,12 +26,14 @@ button{
 }
 
 p{
-    margin: 20px auto;
+    margin: 15px auto;
     padding: 15px;
     border: 1px solid #000;
     border-radius: 10px;
     /* Luscious Lime gradients */
     background: linear-gradient(to bottom right, #009245, #FCEE21);
     color: black;
-    width: 80%;
+    width: 30%;
 }
+
+
